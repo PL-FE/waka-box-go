@@ -30,12 +30,7 @@ English | [简体中文](./README_zh.md)
 1. For updating a markdown file，add comments to the place where you want to update in the markdown file.
    ```markdown
     <!-- waka-box start -->
-📊 每周工作报告
-```text
-Still Gathering Statistics...
-```
-<!-- Powered by https://github.com/journey-ad/waka-box-go . -->
-<!-- waka-box end -->
+   <!-- waka-box end -->
    ```
 
 ### 🚀 Project setup
@@ -57,8 +52,8 @@ Still Gathering Statistics...
    - **GIST_BARLENGTH:** Length of the progress bar. Default is 21. Set to -1 to auto size the bar.
    - **GIST_TIMESTYLE** Abbreviate the time text. Default is "LONG" ( "# hrs # mins" ). "SHORT" updates the text to "#h#m".
 
-2. Go to the repo **Settings > Secrets**
-3. Add the following environment variables:
+1. Go to the repo **Settings > Secrets**
+1. Add the following environment variables:
    - **GH_TOKEN:** The GitHub token generated above.
    - **WAKATIME_API_KEY:** The API key for your WakaTime account.
 
