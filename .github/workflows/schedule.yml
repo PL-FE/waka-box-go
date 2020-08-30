@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-  pull_request:
+  pull_request: git@github.com:PL-FE/PL-FE.git
     branches:
       - master
   schedule:
