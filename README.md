@@ -30,7 +30,12 @@ English | [简体中文](./README_zh.md)
 1. For updating a markdown file，add comments to the place where you want to update in the markdown file.
    ```markdown
     <!-- waka-box start -->
-    <!-- waka-box end -->
+📊 每周工作报告
+```text
+Still Gathering Statistics...
+```
+<!-- Powered by https://github.com/journey-ad/waka-box-go . -->
+<!-- waka-box end -->
    ```
 
 ### 🚀 Project setup
